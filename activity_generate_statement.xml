@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GenerateStatement"
+    android:id="@+id/outer_layout">
+
+    <LinearLayout
+        android:id="@+id/inner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="$290.00"
+                android:textColor="@android:color/white"
+                android:textSize="50sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Payment completed on 02/10/2018"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:stretchColumns="1">
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Account Number" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="123412341234" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
